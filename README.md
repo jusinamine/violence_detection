@@ -11,8 +11,8 @@ vgg16 : https://drive.google.com/file/d/1NQUHzrUW8AeN8CqsckU9szxpM9uyEqRt/view?u
 
 ## Desktop app  (electron js interface, backend python) for detectiong violence using cnn fcn model
 
-1- cd to Api and write ```bash pip install requirement.txt ```
+1- cd to Api and write ```$ pip install requirement.txt ```
 
-2- cd to desktop_app and write ```bash npm install ```
+2- cd to desktop_app and write ```$ npm install ```
 
-3- lanch the app using the command ```bash npm start```
+3- lanch the app using the command ```$ npm start```
