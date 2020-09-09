@@ -16,3 +16,5 @@ vgg16 : https://drive.google.com/file/d/1NQUHzrUW8AeN8CqsckU9szxpM9uyEqRt/view?u
 2- cd to desktop_app and write ```$ npm install ```
 
 3- lanch the app using the command ```$ npm start```
+
+the results will be inside /output folder
