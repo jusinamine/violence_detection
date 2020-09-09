@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Roboto_m';
+    src: url('fonts/Roboto-Medium.ttf');
+        
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    font-family: 'Roboto_m';
+    background-color: #191d24;
+    flex-direction: column;
+}
+
+#top-bx{
+    width: 100%;
+    height: 60px;
+}
+
+#logo-bx{
+    line-height: 60px;
+    vertical-align: middle;
+    margin-left: 36px;
+    color: #fff;
+}
+
+#logo-bx > div:nth-of-type(1){
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+#logo-bx > div:nth-of-type(2){
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.sub-mid-bx-1{
+    font-size: 30px;
+    display: flex;
+    color: #fff;
+    margin-top: 150px;
+}
+
+.sub-mid-bx-2{
+    height: 300px;
+    width: 100%;
+}
+.sub-mid-bx-2 label{
+    width: 260px;
+    height: 50px;
+    margin-top: 60px;
+    background-color: #0475d0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    vertical-align: middle;
+    line-height: 50px;
+    font-family: 'Roboto_m';
+}
+.sub-mid-bx-2 label input{
+    display: none;
+}
+.sub-mid-bx-3{
+    display: flex;
+}
+#pre-bx img{
+    height: 104px;
+    width: 140px;
+}
+#pre-bx img{
+    height: 104px;
+    width: 140px;
+}
+.output-bx{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.output-bx div{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.text-style{
+    margin-top: 20px;
+    font-size: 12px;
+    height: 25px;
+    color: #fff;
+}
+
+.sub-mid-bx-3 input{
+    height: 30px;
+    width: 200px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sub-mid-bx-3 input:hover{
+    opacity: 0.8;
+}
+#cur-eff-l{
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 30px;
+    cursor: pointer;
+    visibility: hidden;
+}
+#cur-eff-r{
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.video-bx{
+    width: 100%;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.start-bx{
+    width: 100%;
+    height: 300px; 
+    display: flex;
+}
+.start-bx input{
+    width: 260px;
+    height: 50px;
+    margin-top: 60px;
+    background-color: #0475d0;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    vertical-align: middle;
+    line-height: 50px;
+    font-family: 'Roboto_m';
+}
+.start-bx input:hover{
+    opacity: 0.8;
+}
+.loading-bx{
+    width: 100%;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+}
+.text{
+    color: #fff;
+    font-size: 12px;
+    margin-top: 60px;
+}
+/* my styles*/
+
+.flex-bx{
+    display: flex;
+    align-content: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-center-v{
+    justify-content: center;
+}
+.text-center-v{
+    text-align: center;
+}
+.display-none{
+    display: none;
+}

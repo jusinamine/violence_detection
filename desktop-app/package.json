@@ -1,0 +1,18 @@
+{
+  "name": "violence-detection-app",
+  "version": "1.0.0",
+  "description": "app for detecting violence in a video ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.2.1",
+    "electron-packager": "^15.1.0"
+  },
+  "dependencies": {
+    "npm": "^6.14.8"
+  }
+}

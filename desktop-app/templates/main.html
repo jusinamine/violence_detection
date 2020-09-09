@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex-bx" id="top-bx"><div id="logo-bx" class="flex-bx"><div>*</div><div>Violence Detection</div></div></div>
+    <div class="" id="mid-bx">
+        <div class="sub-mid-bx-1 flex-col flex-center-v text-center-v ">Start detect voilence in your videos</div>
+        <div class="video-bx display-none">
+        </div>
+        <div class="loading-bx display-none"><div class="text">Processing video ...</div></div>
+        <div class="sub-mid-bx-2 flex-bx flex-center-v text-center-v">
+            <label>
+                Select video
+                <input id="sel-vid" type="file" accept="video/*" value="Select video ">
+             </label>
+        </div>
+        <div class="output-bx display-none">
+            
+            <div>The result is in ./output folder</div> 
+        </div>
+        <div class="start-bx flex-center-v display-none"><input type="button" value="Start detecting"></div>
+        <div id="state-msg" class="sub-mid-bx-2 flex-center-v text-center-v text-style"></div>
+        <div class="sub-mid-bx-3 flex-center-v"><div id="pre-bx"><div id="cur-eff-l"></div><img src="./icon/pre_black.png" alt="s"></div><div id="next-bx"><div id="cur-eff-r"></div><img src="./icon/next_black.png" alt="s"></div></div>
+        <div class="sub-mid-bx-3 flex-center-v flex-bx display-none"><input type="button" value="TRY ANOTHER VIDEO"></div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
